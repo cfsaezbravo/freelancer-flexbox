@@ -1,1 +1,45 @@
-main.css
+*{
+	font-family: "Montserrat";
+ 	color: white;
+}
+ .container{
+ 	background-color: #070F5D;
+ 	position: fixed;
+ 	width: 100%;
+ 	height: auto;
+ 	top: 0;
+ 	left: 0;
+ 	display: inline-block; 
+ 	z-index: 1;	
+ 	padding: 5px 10px; 	
+ }
+
+ .container .logo{
+ 	display: inline-block;
+ }
+
+.container nav{
+ 	display: inline-block; 	
+ }
+
+
+ .logo h1{
+ 	margin-left: 55px;
+ 	margin-right: 500px;	
+ }
+ 
+ .menu ul li{
+ 	display: inline-block;
+ 	 }
+
+ .menu ul li a{
+ 	margin-right: 20px;
+ 	text-decoration: none; 
+ 	width: 100px;
+ 	height: 80px; 
+ }
+
+ .menu a:hover {
+ 	background-color: #2AB582;
+	padding: 10px;
+}
